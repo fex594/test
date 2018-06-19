@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: #555;
+    overflow: hidden;
+}
+
+.container {
+}
+
+.left-side {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.right-side {
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+.center-side {
+    float: left;
+    width: 100%;
+}
+
+.department {
+    margin-bottom: 1.5rem;
+}
+
+.department--first {
+    margin-top: 0;
+}
+
+.department--name {
+    font-family: "Lato";
+    background-color: #999;
+    width: 96%;
+    height: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #222;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-color: #555;
+    margin: 0;
+    padding: 0.0rem 0rem 0.5rem 1rem;
+}
+
+.vehicle {
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: "normal";
+    width: 12rem;
+    height: 1rem;
+    margin: 7px;
+    padding-bottom: 1rem;
+    float: left;
+}
+
+.id {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.status {
+    color: #FFF;
+    float: left;
+    margin-right: 10px;
+    font-size: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.status--0 { background-color: rgb(10,59,118); color: white; }
+.status--1 { background-color: rgb(126,243,126); color: black; }
+.status--2 { background-color: rgb(83,195,118); color: white; }
+.status--3 { background-color: rgb(240,173,95); color: black; }
+.status--4 { background-color: rgb(163,52,14); color: black; }
+.status--5 { background-color: rgb(100,175,239); color: black; }
+.status--6 { background-color: rgb(171,171,171); color: black; }
+.status--7 { background-color: rgb(238,159,209); color: black; }
+.status--8 { background-color: rgb(159,98,235); color: black; }
+.status--9 { background-color: rgb(89,9,115); color: white; }
+.status--10 { background-color: rgb(217,0,0); color: white; }
+.status--C { background-color: rgb(240,173,95); color: black; }
+
+.bma.status--0 {
+    background-color: rgb(235,235,235);
+}
+.bma.status--1 {
+    background-color: rgb(217,0,0);
+}
+.krankenhaus.status { background-color: rgb(171,171,171); color: black; }
+.krankenhaus.status.status--0 { background-color: rgb(217,0,0); }
+
+.column {
+    float: left;
+    width: 50%;
+    min-width: 100px;
+    min-height: 100px;
+}
+.full-column {
+    float: left;
+    width: 100%;
+}
+.full-column .department--name {
+    width: 100%;
+}
+.full-column--top {
+    min-height: 5px;
+}
+.right-column .department--name {
+    width: 100%;
+}
+.portlet {
+    float: left;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.portlet-header {
+    position: relative;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.portlet-content {
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 100px;
+}
+
+.object-log {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.status-update {
+    float: left;
+    padding: .3rem 1rem .3rem 1rem;
+    font-family: "Lato";
+    width: 100%;
+}
